@@ -1,0 +1,60 @@
+
+.dataTablaResumenPedido {  
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 0.3fr;
+ /*  margin: 5% 2% 0 2%; */
+  gap: 2%;
+  align-items: center;
+  grid-template-areas: "productoRP undsRP precioRP eliminarRP";
+}
+
+.dataProductoRP {
+  align-self: center;
+  grid-area: productoRP;
+  font-weight: 500;
+}
+
+.dataUndsRP {
+  grid-area: undsRP;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    padding: 20%;
+    font-size: medium;
+  }
+}
+
+.dataPrecioRP {
+  grid-area: precioRP;
+  text-align: center;
+  font-size: medium;
+}
+
+.dataEliminarRP {
+  align-self: stretch;
+  grid-area: eliminarRP;
+  img {
+    width: 20px;
+  }
+  & :hover {
+    transform: scala(1.02);
+  }
+}
+
+.btnPlusRP,
+.btnLessRP {
+  padding: 2%;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  background-color: #bebebe;
+  text-align: center;
+  align-items: center;
+}
+
+.btnEliminarRP {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: var(--color-white);
+}

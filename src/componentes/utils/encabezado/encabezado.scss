@@ -1,0 +1,26 @@
+.datosEmpresa{
+  margin-bottom: 7%;
+}
+.descripcion{
+  display: flex;
+  width: 100%;
+  height: auto;
+  font-size: 12px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  img{
+    width: 90px;
+    height: 60px;
+  }
+}
+.datos{
+  width: 60%;
+  height: auto;
+  margin: 0 1rem;
+  text-align: left;
+}
+.fecha{
+  justify-self: end;
+  width: 80%;
+}

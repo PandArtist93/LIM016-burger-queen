@@ -1,0 +1,82 @@
+.navRP {  
+  display: grid;
+  grid-template-columns: 1.5fr 1.1fr 0.4fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0% 5%;
+  grid-auto-flow: row;
+  justify-content: space-between;
+  align-content: space-evenly;
+  justify-items: stretch;
+  align-items: start;
+  // font-family: var(--font-base);
+  grid-template-areas:
+    "fechaYhora inputCliente inputMesa";
+  input {
+    background: #fff;
+    border-radius: 3px;
+    height: 100%;
+    line-height: 45px;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all;
+    border: 3px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  select {
+    border: 3px solid transparent;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+  }
+}
+
+.fechaYhora {
+  align-self: stretch;
+  grid-area: fechaYhora;
+  p {
+    font-size: 15px;
+  }
+  img {
+    width: 10%;
+    min-width: 25px;
+    max-width: 35px;
+    margin-right: 5%;
+  }
+  label {
+    display: flex;
+  }
+}
+
+.inputMesa {
+  justify-self: stretch;
+  align-self: stretch;
+  grid-area: inputMesa;
+  overflow-y: overlay;
+  .input {
+    width: 10%;
+    margin-top: 5%;
+  }
+  label {
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+
+.inputCliente {
+  justify-self: stretch;
+  align-self: stretch;
+  grid-area: inputCliente;
+  overflow-y: overlay;
+  margin-right: 8%;
+  margin-left: 6%;
+  .input {
+    width: 10%;
+  }
+  label {
+    display: flex;
+    flex-direction: column;
+  }
+}
+

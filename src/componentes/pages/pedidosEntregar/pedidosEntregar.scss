@@ -1,0 +1,14 @@
+.contenedorPedidosEntregar {
+  width: 100%;
+  h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
+
+.gridResponsivePE {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1rem;
+  /* overflow-x: overlay; */
+}

@@ -1,0 +1,91 @@
+.boxPedido{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  min-width: 330px;
+  max-width: 100%;
+  width: 100%;
+}
+table {
+  table-layout: fixed;
+  border: 3px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.40);
+}
+thead {
+  th {
+    text-align: center;
+    border: 3px solid #fff;
+    border-bottom: 3px solid rgb(0, 0, 0);
+  }
+}
+tbody {
+  td {
+    padding: 0.2em;
+    border-bottom: 1px solid transparent;
+    text-align:center;
+    border: 3px solid transparent;
+  }
+  tr:hover {
+    background-color: #eee;
+  }
+}
+thead button {
+  border-color: transparent;
+  border: 0;
+  border-radius: none;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: inherit;
+  padding: 0.5em;
+  margin-bottom: 1px;
+}
+.detallePedido{
+  display: flex;
+  background-color: #BA973C;
+  margin-bottom: 8px;   
+  width: 100%;
+  padding: 0.5rem 1rem;
+  justify-content: space-between;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.40);
+}
+.totalPedido{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;    
+  padding: 0.3rem 3rem 0.3rem 3rem;
+  background-color: black;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.40);
+  p {
+    color: #fff;
+    font-size:16px;
+  }
+}
+.dataCliente{
+  display: flex;
+  flex-direction: column;
+}
+.dato1{
+  display: flex;
+  width: 100%;
+  h5{
+    margin-right: 20px;
+  }
+  p{
+    font-size:14px;
+  }
+}
+.dato2 {
+  width: 30%;
+  display: flex;
+  justify-content: end;
+  h5 {
+    margin-right: 20px;
+  }
+  p{
+    font-size:14px;
+  }
+}
+
+   

@@ -1,0 +1,133 @@
+$light: rgb(0, 0, 0);
+$gray: #BA973C;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 100%;
+}
+.flex{
+  display: flex;
+  height: 100vh
+}
+/* .content{
+    width: 100%;
+    background-color: #E5E5E5;
+    padding: 16px;
+    padding-top: 3rem;
+    p {
+        color: #000;
+    }
+} */
+/* .navbar{
+    height: 70px;
+    display: flex;
+    background-color: $light;
+    padding: 1px;
+    border-bottom: 2px solid $light;
+    color: #fff;
+} */
+.logo-registro{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  img{
+    width: 106px;
+    height:100%;
+  }
+}
+.sideBar{
+  background-color: $light;
+  padding: 0.7rem;
+  color: #fff;
+  width: 19rem;
+  /* height: calc(100vh - 40px); */
+  border-right: 2px solid $light;
+  ul {
+    list-style: none;
+    padding: 0.5rem ;
+    li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.5rem;
+      a {
+        text-decoration: none;
+        color: #fff;
+    }
+  }}}
+.logoSideBar{
+  display: flex;
+  justify-content: center; 
+  margin-bottom: 20px;   
+}
+.SideBar-bottons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 58px;
+  cursor: pointer;
+  img {
+    justify-content: center;
+    margin-right: 20px;
+    width: 35px;
+  }
+  p {
+    text-align:start;
+    font-size: 16px;
+  }
+}
+.dataUser{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.containerBotones{
+  width: 13rem;
+  display: flex;
+  position: relative;
+  bottom: 0;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.bottons{
+  display: flex;
+  justify-content: center;
+  button {
+    margin-bottom: 10%;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+  }
+}
+.bottons1{
+  display: flex;
+  justify-content: center;
+  button {
+    margin-bottom: 10%;
+    right: 50px;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+  }
+}
+-------------------------------
+.datosRegistro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  width: 100%;
+  height: auto;
+  h3{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 20px;
+  }
+}

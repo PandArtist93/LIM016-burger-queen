@@ -1,0 +1,12 @@
+.TotalRP {
+  background: var(--color-black);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 5% 0;
+  padding: 2% 5%;
+  display: flex;
+  justify-content: space-between;
+  p {
+    color: var(--color-beige);
+    // font-family: var(--font-base);
+  }
+}

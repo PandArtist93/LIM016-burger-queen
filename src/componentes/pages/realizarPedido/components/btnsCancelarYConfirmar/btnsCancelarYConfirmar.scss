@@ -1,0 +1,65 @@
+:root {
+  --color-green: #62c25e;
+  --color-red: #d15656;
+  --color-greenOscuro: #2c7a29;
+  --color-redOscuro: #9e2222;
+  --color-beige: beige;
+}
+
+.btnsContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5%;
+  justify-content: space-evenly;
+}
+.gridResponsiveBtns{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 1rem;
+}
+.confirm__button,
+.cancel__button {
+  color: var(--color-beige);
+  // font-family: var(--font-base);
+  font-weight: 700;
+  // width: 42%;
+  letter-spacing: 0.04em;
+  // line-height: 28px;
+  font-size: medium;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.confirm__button {
+  background-color: var(--color-green);
+  display: flex;
+  justify-content: center;
+}
+
+.confirm__button:hover {
+  background-color: var(--color-greenOscuro);
+  transform: scale(1.02);
+}
+
+.cancel__button {
+  background-color: var(--color-red);
+  display: flex;
+  justify-content: center;
+}
+
+.cancel__button:hover {
+  background-color: var(--color-redOscuro);
+  transform: scale(1.02);
+}
+
+.swal2-html-container{
+  margin: 8% 0 3% 0;
+}
+
+.swal2-title {
+  padding: 1.6em 1em 0;
+}

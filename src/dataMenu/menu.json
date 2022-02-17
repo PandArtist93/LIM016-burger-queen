@@ -1,0 +1,274 @@
+
+{
+  "karma": "Hamburguesería",
+  "carta": [
+    {
+      "hamburguesas": [
+        {
+          "id": "",
+          "codigo": "H001" ,
+          "name": "Karma Clásico",
+          "tipo": "Carne",
+          "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Karma%20Clasico.png?alt=media&token=76e5909c-d927-406e-bb52-7290985c7934",
+          "unidades por plato": "4",
+          "descripcion": "Hamburguesas de Carne + Papas + Ensalada +  Salsas Clásicas",
+          "precio": "12.90"
+        },
+        {
+          "id": "",
+          "codigo": "H002" ,
+          "name": "Extra Karma",
+          "tipo": "Carne",
+          "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Extra-Karma.png?alt=media&token=298f8f20-4c89-4c36-a22e-7d1f12841895",
+          "unidades por plato": "4",
+          "descripcion": "Hamburguesas de Carne + Blend de Quesos + Papas + Ensalada  +  Salsas Clásicas",
+          "precio": "14.90"
+        },
+        {
+          "id": "",
+          "codigo": "H003" ,
+          "name": "Karma Doble",
+          "tipo": "Carne",
+          "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Karma-Doble.png?alt=media&token=822044ec-c1de-41d8-ba63-5f4e306b45f4",
+          "unidades por plato": "4",
+          "descripcion": "Hamburguesas de Carne Doble + Blend de Quesos + Huevo + Papas + Ensalada + Salsas Clásicas",
+          "precio": "16.90"
+        },
+        {
+          "id": "",
+          "codigo": "H004" ,
+          "name": "La Inflamable",
+          "tipo": "Carne",
+          "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/La%20Inflamable.png?alt=media&token=1c1e81e8-e012-4446-a247-6553fa4f1fe6",
+          "unidades por plato": "3",
+          "descripcion": "Hamburguesas de Carne bañadas con salsa picante Cajú  + Jamón  + Blend de Quesos + Papas + Ensalada + Salsas Clásicas",
+          "precio": "17.90"
+        },
+        {
+          "id": "",
+          "codigo": "H005" ,
+          "name": "Dulce Venganza",
+          "tipo": "Carne",
+          "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Dulce%20Venganza.png?alt=media&token=921f50c3-38ef-4588-bc20-e67d82392cf3",
+          "unidades por plato": "4",
+          "descripcion": "Hamburguesas de Carne BAÑADAS CON SALSA BBQ  + Jamón +  Blend de Quesos + Papas + Ensalada + Salsas Clásicas",
+          "precio": "17.90"
+        },
+        {
+          "id": "",
+          "codigo": "H006" ,
+          "name": "Sin Karma",
+          "tipo": "Vegetariana",
+          "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Sin%20Karma.png?alt=media&token=0514928c-2770-483e-88f5-daa180768a5c",
+          "unidades por plato": "3",
+          "descripcion": "Hamburguesas a base de Lenteja y Quinoa + Queso Mozarela a base de Almendras + Papas + Ensalada + Salsas Clásicas",
+          "precio": "12.90"
+        },
+        {
+          "id": "",
+          "codigo": "H007" ,
+          "name": "La Inocente",
+          "tipo": "Carne",
+          "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/La%20Inocente.png?alt=media&token=a5b4ef7e-d1ee-435e-924d-2ac8545e75f1",
+          "unidades por plato": "4",
+          "descripcion": "Hamburguesas de Carne + Cebolla Caramelizada + PIÑA + Jamón  + Papas + Ensalada + Salsas Clásicas ",
+          "precio": "18.90"
+        },
+        {
+          "id": "",
+          "codigo": "H008" ,
+          "name": "El Culpable",
+          "tipo": "Carne",
+          "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/El%20Culpable.png?alt=media&token=bf4aabf5-3e90-4059-8453-461c25a89984",
+          "unidades por plato": "4",
+          "descripcion": "Hamburguesas de Carne + Jamón + Blend de Quesos + Tocino + Huevo  + Papas + Ensalada + Salsas Clásicas",
+          "precio": "18.90"
+        }
+      ],
+      "bebidas": [ 
+          {
+            "id": "",
+            "codigo": "BF001" ,
+            "name": "Mango Frozen",
+            "tipo":"Fria",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Mango.png?alt=media&token=035ba3d4-57bb-4b62-acca-691193c83651",
+            "descripcion": "500ml",
+            "precio": "9.90" 
+          },
+          {
+            "id": "",
+            "codigo": "BF002" ,
+            "name": "Maracuyá Frozen",
+            "tipo":"Fria",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Maracuya.png?alt=media&token=aabdd1d6-c554-495c-941a-c40ee37a25e1",
+            "descripcion": "500ml",
+            "precio": "8.90" 
+          },
+          {
+            "id": "",
+            "codigo": "BF003" ,
+            "name": "Limonada Frozen",
+            "tipo":"Fria",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Limonada.png?alt=media&token=b4f1ec10-b3b6-4f1e-a5a4-7c0de9641f9f",
+            "descripcion": "500ml",
+            "precio": "8.90" 
+          },
+          {
+            "id": "",
+            "codigo": "BF004" ,
+            "name": "Emoliente",
+            "tipo":"Fria",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Emoliente.png?alt=media&token=ae4cfd81-8c42-4f11-9844-a288fd921be6",
+            "descripcion": "500ml",
+            "precio": "6.90" 
+          },
+          {
+            "id": "",
+            "codigo": "BF005" ,
+            "name": "Chicha",
+            "tipo":"Fria",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Chicha.png?alt=media&token=ca2d77f6-a699-421d-ad69-64e787959568",
+            "descripcion": "500ml",
+            "precio": "7.90" 
+          },
+          {
+            "id": "",
+            "codigo": "BF006" ,
+            "name": "Agua Mineral",
+            "tipo":"Fria",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Agua.png?alt=media&token=d33f5b7e-9105-41b3-b3cf-15b84f732a79",
+            "descripcion": "500ml",
+            "precio": "4.90" 
+          }, 
+          {
+            "id": "",
+            "codigo": "BC001" ,
+            "name": "Manzanilla",
+            "tipo":"Caliente",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Manzanilla.png?alt=media&token=bfcd2542-3935-4e75-af98-abd6427887b4",
+            "descripcion": "300ml",
+            "precio": "5.90" 
+          },
+          {
+            "id": "",
+            "codigo": "BC002" ,
+            "name": "Hierba Luisa",
+            "tipo":"Caliente",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Luisa.png?alt=media&token=367625f4-f0ba-4b41-8c12-846de6427c59",
+            "descripcion": "300ml",
+            "precio": "5.90" 
+          },
+          {
+            "id": "",
+            "codigo": "BC003" ,
+            "name": "Anís",
+            "tipo":"Caliente",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Anis.png?alt=media&token=32e32214-665e-4245-9237-fe39fbbf2c81",
+            "descripcion": "300ml",
+            "precio": "5.90" 
+          },
+          {
+            "id": "",
+            "codigo": "BC004" ,
+            "name": "Té",
+            "tipo":"Caliente",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Te.png?alt=media&token=e3977952-8e4f-4722-b17c-479b568e4dd6",
+            "descripcion": "300ml",
+            "precio": "5.90" 
+          },
+          {
+            "id": "",
+            "codigo": "BC005" ,
+            "name": "Expreso",
+            "tipo":"Caliente",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Expreso.png?alt=media&token=e2b5b6a8-0e8d-495c-83cb-488fe7703c6c",
+            "descripcion": "300ml",
+            "precio": "5.90" 
+          },
+          {
+            "id": "",
+            "codigo": "BC006" ,
+            "name": "Café Americano",
+            "tipo":"Caliente",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Americano.png?alt=media&token=7229fcd8-2758-4523-bdb4-437ffc6869f2",
+            "descripcion": "300ml",
+            "precio": "5.90" 
+          },
+          {
+            "id": "",
+            "codigo": "BC007" ,
+            "name": "Capuchino",
+            "tipo":"Caliente",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Capuchino.png?alt=media&token=0b96de05-7edd-4e9d-aa8e-303e44be613c",
+            "descripcion": "300ml",
+            "precio": "7.90" 
+          },
+          {
+            "id": "",
+            "codigo": "BC008" ,
+            "name": "Mocca",
+            "tipo":"Caliente",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Mocca.png?alt=media&token=240e2871-34ac-46d4-8804-f03395ad297a",
+            "descripcion": "300ml",
+            "precio": "7.90" 
+          },
+          {
+            "id": "",
+            "codigo": "BC009" ,
+            "name": "Emoliente",
+            "tipo":"Caliente",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Emoliente.png?alt=media&token=ae4cfd81-8c42-4f11-9844-a288fd921be6",
+            "descripcion": "500ml",
+            "precio": "6.90" 
+          }
+        ],
+      "complementos": [ 
+        {
+          "id": "",
+          "codigo": "C001" ,
+          "name": "Ensalada",
+          "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Ensalada.png?alt=media&token=bfa667c3-982e-498d-918b-13c48656f90c",
+          "unidades por plato": "1",
+          "descripcion": "Palta + Lechuga + Tomate + Queso + Rábano + Vinagreta",
+          "precio": "5.90"
+        },
+        {
+          "id": "",
+          "codigo": "C002" ,
+          "name": "Papas Fritas",
+          "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Papas.png?alt=media&token=2ff6c779-30ed-4f8d-937c-17d13c51fad9",
+          "unidades por plato": "-",
+          "descripcion": "Papas nativas + Orégano + Pizca de sal",
+          "precio": "5.90"
+        },
+        {
+          "id": "",
+          "codigo": "C003" ,
+          "name": "Aros de Cebolla",
+          "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Aros.png?alt=media&token=e4955f49-8727-4c13-8622-379487b8a83a",
+          "unidades por plato": "10",
+          "descripcion": "Aros de Cebolla crocantes + Guacamole",
+          "precio": "6.90"
+        },
+        {
+          "id": "",
+          "codigo": "C004" ,
+          "name": "Nuggets",
+          "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Nuggets.png?alt=media&token=1ac0d847-6987-40bf-97a5-bf8c9fd44515",
+          "unidades por plato": "6",
+          "descripcion": "Nuggets de pollo",
+          "precio": "8.90"
+        },
+        {
+          "id": "",
+          "codigo": "C005" ,
+          "name": "Tequeños",
+          "imagen": "https://firebasestorage.googleapis.com/v0/b/burger-queen-karma.appspot.com/o/Tequenos.png?alt=media&token=7fc56676-c9c7-4911-9574-cb46c349fd61",
+          "unidades por plato": "6",
+          "descripcion": "Tequeños con relleno de queso + Guacamole",
+          "precio": "6.90"
+        }
+      ]
+    }        
+  ]      
+}        

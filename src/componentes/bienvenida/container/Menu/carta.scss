@@ -1,0 +1,46 @@
+.ViewMenu{
+    display: flex;
+    width: 100%;
+    background-color: #000;
+    justify-content: space-around;
+}
+.imgMenu{
+    margin-top: 2rem;
+    height: 50%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size:100% 70%;
+    background-position: bottom;
+    object-fit: cover;    
+}
+.botonAtras{
+    background-color: #000;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    input{
+        display: flex;
+        text-align: center;
+        border: 1px solid white;
+        background: transparent;
+        color: white;
+        display: block;
+        margin: 0.5rem auto;
+        width: 150px;
+        height: 40px;
+        min-width: 1px;
+        padding: 0.25rem;
+        transition: 250ms background ease-in;
+        &:hover,
+        &:focus {
+            background: white;
+            color: black;
+            transition: 250ms background ease-in;
+        }
+    }
+}

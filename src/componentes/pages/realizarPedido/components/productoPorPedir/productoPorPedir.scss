@@ -1,0 +1,166 @@
+:root {
+  --color-mostazaClaro: #C59826;
+  --color-mostazaOscuro: #BA973C;
+}
+
+.gridResponsivePPM {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.DataPorProductoMenu { 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr 1fr));
+  padding: 2% 5%;
+  grid-template-areas:
+      "imagenProducto nombrePrecio"
+      "imagenProducto agregarYaumentar";
+  background: var(--color-white);
+  border-radius: 3px;
+  transition: 0.3s ease all;
+  border: 3px solid transparent;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+.imagenProducto {
+  justify-self: stretch;
+  align-self: center;
+  grid-area: imagenProducto;
+  align-items: center;
+  img {
+    width: 100%;
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.253));
+  }
+}
+
+.btnInfo {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: var(--color-white);
+  text-align: start;
+  display: flex;
+  position: relative;
+  z-index: 15;
+  img {
+    width: 20px;
+    min-width: 15px;
+  }
+}
+
+.nombrePrecio {
+  justify-self: stretch;
+  align-self: start;
+  grid-area: nombrePrecio;
+  align-items: flex-start;
+  p {
+    font-size: small;
+    font-weight: 600;
+  }
+}
+
+.agregarYaumentar {
+  justify-self: stretch;
+  align-self: end;
+  grid-area: agregarYaumentar;
+  align-items: flex-end;
+  font-size: small;
+  text-align: end;
+}
+
+.Agregar__button {
+  color: var(--color-beige);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  background-color: var(--color-mostazaClaro);
+  font-size: small;
+  padding: 0.1rem 1.5rem;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  text-align: center;
+  align-items: center;
+}
+
+.contador {
+  display: flex;
+  align-items: center;
+  margin: 5%;
+  justify-content: center;
+  p {
+    width: 30%;
+    margin: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: var(--color-white);
+  }
+}
+
+.modalDescripcion {  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 0px;
+  margin: 5%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "tittleInfo tittleInfo"
+    "imgInfo nameInfo"
+    "imgInfo detailsInfo"
+    "precioInfo detailsInfo";
+    img {
+      width: 100%;
+    }
+    h3 {
+      background-color: var(--color-mostazaClaro);
+      padding: 2%;
+      color: var(--color-beige);
+      text-align: center;
+      border-radius: 50px;
+    }
+    h6 {
+      background-color: black;
+      padding: 4%;
+      color: var(--color-beige);
+      text-align: center;
+      border-radius: 50px;
+      width: 50%;
+      font-size: medium;
+    }
+    h5 {
+      text-align: start;
+      width: 100%;
+      font-size: x-large;
+      border-bottom: 2px solid black;
+      margin-top: 10%;
+    }
+    p {
+      font-size: small;
+    }
+
+}
+
+.imgInfo { grid-area: imgInfo; }
+
+.tittleInfo { grid-area: tittleInfo; }
+
+.nameInfo { grid-area: nameInfo; }
+
+.precioInfo { 
+  grid-area: precioInfo; 
+  display: flex;
+  justify-content: center;
+}
+
+.detailsInfo { 
+  grid-area: detailsInfo; 
+  text-align: justify;
+  align-self: flex-start;
+  margin-top: 5%;
+}

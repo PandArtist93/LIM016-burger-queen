@@ -1,0 +1,31 @@
+:root {
+  --color-mostazaClaro: #C59826;
+  --color-mostazaOscuro: #BA973C;
+  --color-mostazaMasOscuro: #695625;
+}
+
+.BoxBtnsMenu {
+  display: flex;
+  justify-content: space-between;
+  gap: 2%;
+  max-height: 55px;
+  // margin: 5% 0 5% 0;
+  img {
+    width: 40%;
+    margin: 10%;
+  }
+  button {
+    background-color: var(--color-mostazaOscuro);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    outline: none;
+    text-align: center;
+    align-items: center;
+  }
+  & :hover {
+    background-color: var(--color-mostazaMasOscuro);
+    transform: scale(1.02);
+  }
+}
+

@@ -1,0 +1,28 @@
+.botonDescarga {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  button {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    width: 194px;
+    height: 38px;
+    margin: 2rem 0;
+    background-color: #000;
+    color: #fff;
+    border: transparent;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  } 
+}
+.boton{
+  display: flex;
+  justify-content: center;
+  button:hover{
+    background-color: rgb(71, 67, 67);
+  }
+} 

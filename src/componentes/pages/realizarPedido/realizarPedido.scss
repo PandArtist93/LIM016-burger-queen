@@ -1,0 +1,93 @@
+
+.containerRP {  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 7vh 8vh 62vh 5vh 5vh;
+  grid-auto-columns: 1fr;
+  gap: 0% 5%;
+  grid-auto-flow: row;
+  justify-content: space-between;
+  align-content: space-evenly;
+  justify-items: stretch;
+  align-items: start;
+  grid-template-areas:
+    "navRealizarPedido navRealizarPedido"
+    "navListadoProductosPorPedir navTablaResumenPedido"
+    "listadoProductosPorPedir resumenPedidosPorComprar"
+    "listadoProductosPorPedir precioTotal"
+    "listadoProductosPorPedir btnsCancelarYConfirmar";
+}
+
+.resumenPedidosPorComprar {
+  justify-self: stretch;
+  align-self: stretch;
+  grid-area: resumenPedidosPorComprar;
+  overflow-x: overlay;
+  background: var(--color-white);
+  border-radius: 3px;
+  padding: 3%;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+  border: 3px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.precioTotal {
+  justify-self: stretch;
+  align-self: start;
+  grid-area: precioTotal;
+}
+
+.navListadoProductosPorPedir {
+  justify-self: stretch;
+  align-self: center;
+  grid-area: navListadoProductosPorPedir;
+  max-height: 57px;
+}
+
+.navTablaResumenPedido {
+  justify-self: stretch;
+  grid-area: navTablaResumenPedido;
+  align-self: center;
+}
+
+.navRealizarPedido {
+  justify-self: stretch;
+  align-self: center;
+  grid-area: navRealizarPedido;
+}
+
+.listadoProductosPorPedir {
+  justify-self: stretch;
+  align-self: stretch;
+  grid-area: listadoProductosPorPedir;
+  overflow-x: overlay;
+  /* margin-top: 10px; */
+}
+
+.listadoProductosPorPedir::-webkit-scrollbar,
+.resumenPedidosPorComprar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.listadoProductosPorPedir::-webkit-scrollbar-thumb,
+.resumenPedidosPorComprar::-webkit-scrollbar-thumb{
+  background: gray;
+  border-radius: 10px;
+}
+
+.listadoProductosPorPedir::-webkit-scrollbar,
+.resumenPedidosPorComprar::-webkit-scrollbar{
+  background: rgba(128, 128, 128, 0);
+}
+
+.btnsCancelarYConfirmar {
+  justify-self: stretch;
+  align-self: stretch;
+  grid-area: btnsCancelarYConfirmar;
+}
+
+// {
+//   grid-template-rows: 7vh 8vh 51vh 7vh 13vh;
+// }
