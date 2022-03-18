@@ -7,7 +7,7 @@ function  NavRealizarPedido() {
   const { cliente, setCliente } = useContext(UserContext)
   
   let date = new Date();
-  console.log(date);
+  //console.log(date);
   const numerosMesa = [ {mesa: "mesa"}, {mesa: "1"}, {mesa: "2"}, {mesa: "3"}, {mesa: "4"}, {mesa: "5"}, {mesa: "6"}, {mesa: "7"}, {mesa: "8"} ]
 
   return ( 
