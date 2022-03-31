@@ -1,25 +1,40 @@
 import './fecha.scss';
 
-const Fecha = () => {
-  let mydate=new Date()
-  let dateTime=mydate.toLocaleTimeString()
-  let year=mydate.getYear() 
-  if (year < 1000) 
-  year+=1900 
-  let day=mydate.getDay() 
-  let month=mydate.getMonth() 
-  let daym=mydate.getDate() 
-  if (daym<10) 
-  daym="0"+daym 
-  let dayarray = ["Dom,", "Lun,", "Mar,", "Mie,", "Jue,", "Vie,", "Sab,"]
-  let montharray = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
-  
-    return  ( 
-        <div>
-           <p>Fecha: {dayarray[day]} {daym} de {montharray[month]} de {year} </p>
-           <p>Hora: {dateTime} </p>
-        </div>
-    )
-} 
+function Fecha() {
+  const mydate = new Date();
+  const dateTime = mydate.toLocaleTimeString();
+  let year = mydate.getYear();
+  if (year < 1000) { year += 1900; }
+  const day = mydate.getDay();
+  const month = mydate.getMonth();
+  let daym = mydate.getDate();
+  if (daym < 10) { daym = `0${daym}`; }
+  const dayarray = ['Dom,', 'Lun,', 'Mar,', 'Mie,', 'Jue,', 'Vie,', 'Sab,'];
+  const montharray = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
 
-export default Fecha
+  return (
+    <div>
+      <p>
+        Fecha:
+        {dayarray[day]}
+        {' '}
+        {daym}
+        {' '}
+        de
+        {' '}
+        {montharray[month]}
+        {' '}
+        de
+        {' '}
+        {year}
+        {' '}
+      </p>
+      <p>
+        Hora:
+        {dateTime}
+      </p>
+    </div>
+  );
+}
+
+export default Fecha;

@@ -1,17 +1,18 @@
-import { BtnsCancelarYConfirmar, NavRealizarPedido, ProductoPorComprar, ProductoPorPedir } from './components';
+import {
+  BtnsCancelarYConfirmar, NavRealizarPedido, ProductoPorComprar, ProductoPorPedir,
+} from './components';
 import NavListadoProductosPorPedir from './components/navListadoProductosPorPedir/navListadoProductosPorPedir';
 import NavTablaResumenPedido from './components/navTablaResumenPedido/navTablaPedido';
 import PrecioTotal from './components/precioTotal/precioTotal';
 
 import './realizarPedido.scss';
 
-const RealizarPedido = () => {
-
-  return  ( 
-    <section className='marginFlex'>
+function RealizarPedido() {
+  return (
+    <section className="marginFlex">
       <div className="containerRP">
         <div className="navRealizarPedido">
-          <NavRealizarPedido />
+          <NavRealizarPedido />          
         </div>
         <div className="navListadoProductosPorPedir">
           <NavListadoProductosPorPedir />
@@ -19,7 +20,8 @@ const RealizarPedido = () => {
         <div className="navTablaResumenPedido">
           <NavTablaResumenPedido />
         </div>
-        <div className="listadoProductosPorPedir">
+        <br />
+        <div className="listadoProductosPorPedir">          
           <ProductoPorPedir />
         </div>
         <div className="resumenPedidosPorComprar">
@@ -33,7 +35,7 @@ const RealizarPedido = () => {
         </div>
       </div>
     </section>
-  )
-} 
+  );
+}
 
-export default RealizarPedido
+export default RealizarPedido;

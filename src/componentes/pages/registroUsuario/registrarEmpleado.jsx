@@ -3,13 +3,12 @@ import React from 'react';
 import './registrarEmpleado.scss';
 import AppRegistro from './AppRegistro';
 
-
-const RegistroEmpleado = () => {   
-  return  ( 
+function RegistroEmpleado() {
+  return (
     <div>
-      <AppRegistro/>
+      <AppRegistro />
     </div>
-  )
-} 
+  );
+}
 
-export default RegistroEmpleado
+export default RegistroEmpleado;

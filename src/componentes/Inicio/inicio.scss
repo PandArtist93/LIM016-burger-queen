@@ -12,7 +12,7 @@
 .inicio{
   width: 90%;
   padding: 20px;
-  height: 86vh;
+  /* height: 86vh; */
   text-align: center;
   border: 3px solid var(--color-mostazaOscuro);
   margin: 5%;
@@ -67,6 +67,24 @@
   img{ 
     width: 30%;
   }
+}
+
+.custom__button-menuPdf {
+  margin-top: 1rem;
+  background-color: #0C0C0C;
+  color: beige;
+  padding: 0.5rem;
+}
+
+.custom__button-menuPdf a {
+  border: 1px solid rgb(240, 238, 238);
+  color: beige;
+  padding: 0.5rem;
+}
+
+.custom__button-menuPdf a:hover {
+  border: 1px solid var(--color-mostazaOscuro);
+  color: var(--color-mostazaOscuro);
 }
 
 

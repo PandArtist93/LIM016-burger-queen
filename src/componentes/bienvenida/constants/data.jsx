@@ -4,7 +4,7 @@ const wines = [
   {
     title: 'KARMA DOBLE',
     price: 'S/. 16.90',
-    tags: 'Hambueguesas de Carne Doble | Blend de Quesos | Huevo | Papas| Ensalada | Salsas Clásicas ', 
+    tags: 'Hambueguesas de Carne Doble | Blend de Quesos | Huevo | Papas| Ensalada | Salsas Clásicas ',
   },
   {
     title: 'DULCE VENGANZA',
@@ -14,7 +14,7 @@ const wines = [
   {
     title: 'SIN KARMA',
     price: ' S/. 17.90',
-    tags: 'Hamburguesas Vegetarianas a base de Lenteja y Quinoa | Queso Mozarela a base de leche de Almendras | Papas| Ensalada | Salsas Clásicas', 
+    tags: 'Hamburguesas Vegetarianas a base de Lenteja y Quinoa | Queso Mozarela a base de leche de Almendras | Papas| Ensalada | Salsas Clásicas',
   },
 ];
 
@@ -25,7 +25,7 @@ const cocktails = [
     tags: ' Mango Rapoza| 500 ml',
   },
   {
-    title: "MARACUYÁ FROZEN",
+    title: 'MARACUYÁ FROZEN',
     price: ' S/. 8.90',
     tags: 'Maracuyá Peroba | 500 ml',
   },

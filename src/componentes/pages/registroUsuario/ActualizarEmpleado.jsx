@@ -3,13 +3,12 @@ import React from 'react';
 import './registrarEmpleado.scss';
 import AppActualizarRegistro from './AppActualizarRegistro';
 
-
-const ActualizarDatosEmpleado = () => {   
-  return  ( 
+function ActualizarDatosEmpleado() {
+  return (
     <div>
-      <AppActualizarRegistro/>
+      <AppActualizarRegistro />
     </div>
-  )
-} 
+  );
+}
 
-export default ActualizarDatosEmpleado
+export default ActualizarDatosEmpleado;

@@ -211,14 +211,14 @@ A continuación, se adjuntará una breve videodemostración del resultado final 
 
 ## 📌 Página de Bienvenida
 
-<img src="./src/img/Readme/Pag-Bienvenida.gif" width="800">
+<img src="./src/img/Readme/Pag-Bienvenida.gif" width="400">
 </div>
 
 <div align="center">
 
 ## 📌 Inicio Sesión
 
-<img src="./src/img/Readme/Login.gif" width="800">
+<img src="./src/img/Readme/Login.gif" width="400">
 </div>
 
 <div align="center">

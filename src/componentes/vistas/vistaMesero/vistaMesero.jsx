@@ -3,17 +3,17 @@ import Navbar from '../../utils/navBar/navBar';
 import HeaderMesero from '../../headers/headerMesero';
 
 function VistaMesero(props) {
-  return (       
+  return (
     <section className="container">
-      <div className='flex'>                
+      <div className="flex">
         <HeaderMesero />
-        <div className='content'>
-          <Navbar/> 
-          {props.content}                            
-        </div>                
-      </div>       
+        <div className="content">
+          <Navbar />
+          {props.content}
+        </div>
+      </div>
     </section>
   );
 }
 
-export default  VistaMesero;
+export default VistaMesero;

@@ -1,0 +1,102 @@
+.contenedorProductos {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;  
+  grid-template-rows: 8vh 33vh 55vh 6vh;
+  gap: 0% 5%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "navFiltradoProductos formProductos"
+    "listaProductosCrud formProductos"
+    "listaProductosCrud vistaPreviaProducto"
+    "listaProductosCrud btnsConfirmarYCancelar";
+  h2 {
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  input {
+    width: 100%;
+    background: #fff;
+    border-radius: 3px;
+    padding: 0 5px;
+    height: 30px;
+    line-height: 45px;
+    transition: 0.3s ease all;
+    border: 3px solid transparent;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  }
+  select {
+    width: 100%;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    text-align: center;
+    height: 30px;
+  }
+  label {
+    margin: 0.3rem 0;
+  }
+/*   p {
+    margin: 0.3rem 0;
+  } */
+}
+
+.navFiltradoProductos {
+  justify-self: stretch;
+  align-self: center;
+  grid-area: navFiltradoProductos;  
+}
+
+.listaProductosCrud {
+  justify-self: stretch;
+  align-self: stretch;
+  grid-area: listaProductosCrud;
+  overflow-x: overlay;
+}
+
+.listaProductosCrud::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.listaProductosCrud::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
+
+.listaProductosCrud::-webkit-scrollbar {
+  background: rgba(128, 128, 128, 0);
+}
+
+.formProductos {
+  justify-self: stretch;
+  align-self: center;
+  grid-area: formProductos;
+}
+
+.vistaPreviaProducto {
+  justify-self: center;
+  align-self: center;
+  grid-area: vistaPreviaProducto;
+  max-height: 450px;
+}
+
+.btnsConfirmarYCancelar {
+  width: 100%;
+  justify-self: stretch;
+  align-self: end;
+  grid-area: btnsConfirmarYCancelar;
+}
+
+.title {
+  h1 {
+    text-align: center;
+  }
+}
+
+.contenedorProductosInterno {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+}

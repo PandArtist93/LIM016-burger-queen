@@ -11,5 +11,5 @@ export {
   Header,
   Laurels,
   SpecialMenu,
-  carta
+  carta,
 };

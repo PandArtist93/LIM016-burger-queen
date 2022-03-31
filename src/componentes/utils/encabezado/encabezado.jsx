@@ -1,20 +1,20 @@
 import Logo from '../../../img/logos/Logo-Encabezado.png';
 import './encabezado.scss';
-import Fecha from '../../utils/fecha/fecha'
+import Fecha from '../fecha/fecha';
 
-const Encabezado = () => {
-  return  ( 
-    <div className='datosEmpresa'>
-      <div className='descripcion'>
-        <img src={Logo} alt= "logo"/>
-        <div className='datos'>
+function Encabezado() {
+  return (
+    <div className="datosEmpresa">
+      <div className="descripcion">
+        <img src={Logo} alt="logo" />
+        <div className="datos">
           <p>Empresa: Karma Burger</p>
           <p>RUC: 02121 2486 3342</p>
         </div>
-      <div className='fecha'><Fecha/></div>
+        <div className="fecha"><Fecha /></div>
       </div>
     </div>
-  )
-} 
+  );
+}
 
-export default Encabezado
+export default Encabezado;

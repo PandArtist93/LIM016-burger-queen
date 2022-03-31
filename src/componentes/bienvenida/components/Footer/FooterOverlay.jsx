@@ -2,11 +2,13 @@ import React from 'react';
 
 import './FooterOverlay.scss';
 
-const FooterOverlay = () => (
-  <div className="app__footerOverlay">
-    <div className="app__footerOverlay-black" />
-    <div className="app__footerOverlay-img bienvenida__bg" />
-  </div>
-);
+function FooterOverlay() {
+  return (
+    <div className="app__footerOverlay">
+      <div className="app__footerOverlay-black" />
+      <div className="app__footerOverlay-img bienvenida__bg" />
+    </div>
+  );
+}
 
 export default FooterOverlay;
