@@ -24,12 +24,6 @@ function RegistroProductos() {
         <div className="formProductos">
           <FormProducto productData={editedProductData}/>
         </div>
-        {/* <div className="vistaPreviaProducto">
-          <VistaPrevia />
-        </div>
-        <div className="btnsConfirmarYCancelar">
-          <BtnsConfirmarYCancelar />
-        </div> */}
       </div>
     </section>
   );

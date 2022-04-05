@@ -42,7 +42,7 @@ function VistaPrevia({ values }) {
                 : "https://raw.githubusercontent.com/RJRCH123/LIM016-burger-queen/main/src/componentes/pages/registroProductos/assets/addProduct.png"
             }
             alt="imagen"
-            style={{ width: "100%" }}
+            className="imgCamara"
           />
         </div>
       </article>

@@ -1,14 +1,17 @@
 .contenedorProductos {
   display: grid;
-  /* grid-template-columns: 0.8fr 1fr;  
-  grid-template-rows: 8vh 33vh 55vh 6vh; */
-  gap: 0% 5%;
+  grid-template-columns: 0.7fr 1fr;
+  grid-template-rows: 11vh 77vh;
+  grid-auto-columns: 1fr;
+  gap: 0 1rem;
   grid-auto-flow: row;
+  justify-content: stretch;
+  align-content: stretch;
+  justify-items: stretch;
+  align-items: stretch;
   grid-template-areas:
     "navFiltradoProductos formProductos"
-    "listaProductosCrud formProductos"
-    "listaProductosCrud vistaPreviaProducto"
-    "listaProductosCrud btnsConfirmarYCancelar";
+    "listaProductosCrud formProductos";
   h2 {
     text-align: center;
     margin-top: 1.5rem;
@@ -37,15 +40,12 @@
   label {
     margin: 0.3rem 0;
   }
-/*   p {
-    margin: 0.3rem 0;
-  } */
 }
 
 .navFiltradoProductos {
   justify-self: stretch;
-  align-self: center;
-  grid-area: navFiltradoProductos;  
+/*   align-self: end; */
+  grid-area: navFiltradoProductos;
 }
 
 .listaProductosCrud {
@@ -75,18 +75,9 @@
   grid-area: formProductos;
 }
 
-.vistaPreviaProducto {
-  justify-self: center;
-  align-self: center;
-  grid-area: vistaPreviaProducto;
-  max-height: 450px;
-}
-
-.btnsConfirmarYCancelar {
-  width: 100%;
-  justify-self: stretch;
-  align-self: end;
-  grid-area: btnsConfirmarYCancelar;
+.vistaPreviaCenter {
+  display: flex;
+  justify-content: center;
 }
 
 .title {
@@ -99,4 +90,21 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 2rem;
+}
+
+@media screen and (max-width: 750px) {
+  .contenedorProductos {
+    display: flex;
+    flex-direction: column;
+  }
+  .listaProductosCrud {
+    justify-self: stretch;
+    align-self: stretch;
+    grid-area: listaProductosCrud;
+    overflow-x: overlay;
+    height: 250px;
+  }
+  .imgCamara {
+    width: 100%;
+  }
 }

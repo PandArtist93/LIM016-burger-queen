@@ -203,7 +203,9 @@ function FormProducto({productData}) {
           Cargar vista previa
         </button>
       </form>
+      <div className='vistaPreviaCenter'>
       <VistaPrevia values={getPreviewValues()} />
+      </div>
       <BtnsConfirmarYCancelar submit={onSubmit} clear={cleanAll}/>
     </div>
   )
