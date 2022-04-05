@@ -125,7 +125,7 @@ function ListProducts() {
 						</p>
 					</div>
 					<div className="containerButton" id={product.id}>
-            <button type="button" className="buttonEdit" onClick={ModalConfirmacionEditar}><img src={images.editarProductCard} alt='editar'/></button>
+            <button type="button" className="buttonEdit" onClick={ModalConfirmacionEditar}><img src={images.copy} alt='editar'/></button>
 						<button type="button" className=" buttonDelete" onClick={ModalConfirmacionCancelar}><img src={images.eliminar} alt='eliminar'/></button>
           </div>					
 				</div>

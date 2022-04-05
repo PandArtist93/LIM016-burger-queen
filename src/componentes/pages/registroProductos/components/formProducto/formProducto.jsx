@@ -32,7 +32,8 @@ function FormProducto({productData}) {
       precio: precio.current.value,
       undsPorPlato: undsPorPlato.current.value,
       tipo: categoria.current.value,
-      img: img.current.value
+      //img: img.current.value,
+      img: img.current.value !== '' ? img.current.value : 'https://raw.githubusercontent.com/RJRCH123/LIM016-burger-queen/main/src/componentes/pages/registroProductos/assets/addProduct.png'
     });
   };
 
@@ -64,6 +65,7 @@ function FormProducto({productData}) {
     e.preventDefault();
     await createProduct();
     cleanInputs();
+    setRenderPreview(true);
   }
 
   const valueVistaPrevia = (e) => {
@@ -73,7 +75,7 @@ function FormProducto({productData}) {
 
   const cleanAll = () => {
     cleanInputs();
-
+    setRenderPreview(true);
   }
 
   const getPreviewValues = () => {
@@ -202,7 +204,7 @@ function FormProducto({productData}) {
         </button>
       </form>
       <VistaPrevia values={getPreviewValues()} />
-      <BtnsConfirmarYCancelar submit={onSubmit} clear={cleanInputs}/>
+      <BtnsConfirmarYCancelar submit={onSubmit} clear={cleanAll}/>
     </div>
   )
 }

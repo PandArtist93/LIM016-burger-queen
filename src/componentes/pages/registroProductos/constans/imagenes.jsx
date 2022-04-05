@@ -5,7 +5,8 @@ import hamburguesas from '../../realizarPedido/assets/hamburguesas.png';
 import informacion from '../../realizarPedido/assets/i.png';
 import eliminar from '../../realizarPedido/assets/eliminar.png';
 import editarProductCard from '../../../../img/iconos/editar.png'
-import editarImagen from '../assets/editarIcon.png'
+import editarImagen from '../assets/editarIcon.png';
+import copy from '../assets/copy.png';
 import camara from '../assets/addProduct.png'
 // eslint-disable-next-line
 export default {
@@ -17,5 +18,6 @@ export default {
   editarProductCard,
   eliminar,
   editarImagen, 
-  camara
+  camara,
+  copy
 };
